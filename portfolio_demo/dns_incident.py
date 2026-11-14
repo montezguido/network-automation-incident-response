@@ -181,8 +181,7 @@ def main(argv: list[str] | None = None) -> int:
     try:
         result = simulate(load_scenario(args.scenario))
     except ScenarioError as exc:
-        parser.exit(2, f"Scenario error: {exc}
-")
+        parser.exit(2, f"Scenario error: {exc}\n")
     if args.json:
         print(json.dumps(result, indent=2))
     else:
