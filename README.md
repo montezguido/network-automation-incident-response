@@ -11,7 +11,7 @@ python portfolio_demo/dns_incident.py
 python -m unittest discover -s tests -v
 ```
 
-[Inspect the Python source](portfolio_demo/dns_incident.py) · [View fictional observation timeline](portfolio_demo/sample_timeline.json) · [Review 31 automated tests](tests/test_dns_incident.py) · [CI workflow](.github/workflows/verify-dns-lab.yml)
+[Inspect the Python source](portfolio_demo/dns_incident.py) · [View fictional observation timeline](portfolio_demo/sample_timeline.json) · [Review 31 automated tests](tests/test_dns_incident.py) · [CI workflow](.github/workflows/verify-dns-lab.yml) · [WGU D522 evidence map](docs/wgu-evidence-map.md)
 
 The demonstration classifies DNS outages, unauthorized resolver configuration, and endpoint reachability using invented input. It simulates ticket OPENED/RECOVERED events, suppresses duplicate incidents, and models verification. **No real DNS requests, network repairs, help-desk API calls, or notifications are performed.** The independent test outcomes and the historical WGU assessment results must not be conflated.
 
