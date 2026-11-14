@@ -4,6 +4,8 @@ A professional case study demonstrating Python-based network operations, DNS inc
 
 > **Portfolio disclosure:** This repository documents the engineering approach, technologies, outcomes, and lessons learned from a successfully completed academic lab. The original assessment instructions, solution code, lab credentials, configuration files, screenshots, and other restricted course materials are intentionally not published.
 
+**Related, independently developed code:** [Network Reliability Lab](https://github.com/montezguido/network-reliability-lab) is a separate runnable Python portfolio project demonstrating read-only HTTP/TCP checks, stateful incident transitions, an outage/recovery walkthrough, and cross-platform automated tests. Its [GitHub Actions verification](https://github.com/montezguido/network-reliability-lab/actions/runs/43615889906) passed all five configured jobs. It is **not** the original WGU code and does **not** claim to implement the DNS-remediation, ticketing, or notification features described in this academic case study.
+
 ---
 
 ## Project Overview
