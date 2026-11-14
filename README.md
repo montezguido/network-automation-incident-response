@@ -1,6 +1,5 @@
 # Python Network Automation & Incident Response
 
-
 [![Verify independent DNS lab](https://github.com/montezguido/network-automation-incident-response/actions/workflows/verify-dns-lab.yml/badge.svg?branch=main)](https://github.com/montezguido/network-automation-incident-response/actions/workflows/verify-dns-lab.yml)
 
 ## Recruiter quick start — Independently developed Python code
@@ -18,6 +17,7 @@ The demonstration classifies DNS outages, unauthorized resolver configuration, a
 
 ---
 
+## Original WGU academic case study
 
 A professional case study demonstrating Python-based network operations, DNS incident response, REST API integration, automated notifications, remediation, configuration protection, and proactive monitoring in a controlled enterprise lab environment.
 
