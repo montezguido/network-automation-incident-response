@@ -1,0 +1,37 @@
+{
+  "approved_resolvers": ["192.0.2.53", "192.0.2.54"],
+  "frames": [
+    {
+      "label": "healthy baseline",
+      "dns_service": "running",
+      "devices": [
+        {"id": "workstation-a", "reachable": true, "resolver": "192.0.2.53"},
+        {"id": "workstation-b", "reachable": true, "resolver": "192.0.2.54"}
+      ]
+    },
+    {
+      "label": "resolver drift and DNS outage",
+      "dns_service": "stopped",
+      "devices": [
+        {"id": "workstation-a", "reachable": true, "resolver": "203.0.113.66"},
+        {"id": "workstation-b", "reachable": true, "resolver": "192.0.2.54"}
+      ]
+    },
+    {
+      "label": "persistent incident",
+      "dns_service": "stopped",
+      "devices": [
+        {"id": "workstation-a", "reachable": true, "resolver": "203.0.113.66"},
+        {"id": "workstation-b", "reachable": true, "resolver": "192.0.2.54"}
+      ]
+    },
+    {
+      "label": "verified recovery",
+      "dns_service": "running",
+      "devices": [
+        {"id": "workstation-a", "reachable": true, "resolver": "192.0.2.53"},
+        {"id": "workstation-b", "reachable": true, "resolver": "192.0.2.54"}
+      ]
+    }
+  ]
+}
