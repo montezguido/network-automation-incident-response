@@ -1,5 +1,24 @@
 # Python Network Automation & Incident Response
 
+
+[![Verify independent DNS lab](https://github.com/montezguido/network-automation-incident-response/actions/workflows/verify-dns-lab.yml/badge.svg?branch=main)](https://github.com/montezguido/network-automation-incident-response/actions/workflows/verify-dns-lab.yml)
+
+## Recruiter quick start — Independently developed Python code
+
+The completed WGU project is documented in the case study below. A **separate, runnable Python example** now lives in [`portfolio_demo/`](portfolio_demo/README.md); it is not the original WGU lab solution.
+
+```bash
+python portfolio_demo/dns_incident.py
+python -m unittest discover -s tests -v
+```
+
+[Inspect the Python source](portfolio_demo/dns_incident.py) · [View fictional observation timeline](portfolio_demo/sample_timeline.json) · [Review 31 automated tests](tests/test_dns_incident.py) · [CI workflow](.github/workflows/verify-dns-lab.yml)
+
+The demonstration classifies DNS outages, unauthorized resolver configuration, and endpoint reachability using invented input. It simulates ticket OPENED/RECOVERED events, suppresses duplicate incidents, and models verification. **No real DNS requests, network repairs, help-desk API calls, or notifications are performed.** The independent test outcomes and the historical WGU assessment results must not be conflated.
+
+---
+
+
 A professional case study demonstrating Python-based network operations, DNS incident response, REST API integration, automated notifications, remediation, configuration protection, and proactive monitoring in a controlled enterprise lab environment.
 
 > **Portfolio disclosure:** This repository documents the engineering approach, technologies, outcomes, and lessons learned from a successfully completed academic lab. The original assessment instructions, solution code, lab credentials, configuration files, screenshots, and other restricted course materials are intentionally not published.
@@ -225,9 +244,9 @@ A production-oriented version of this concept could add:
 
 ---
 
-## Independent Demonstration Roadmap
+## Independent Demonstration Status
 
-Because the original academic solution code is restricted from public distribution, a future iteration of this repository can include a completely independent implementation using synthetic infrastructure and newly written code. That version could use fictional devices, mock DNS state, a local REST API, and a local SMTP test service while demonstrating the same general engineering concepts without reproducing course solutions.
+An independently written, **offline Python simulation is now available** in [`portfolio_demo/`](portfolio_demo/README.md). It uses fictional device inventories and resolver observations to test DNS-health classification, simulated incident tickets, duplicate-event suppression, and recovery. No university lab solution or real ticket/notification integration is included. A local REST API and SMTP test service could be considered in a later, separately validated iteration.
 
 ---
 
